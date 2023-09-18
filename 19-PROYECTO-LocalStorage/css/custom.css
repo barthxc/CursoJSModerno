@@ -1,0 +1,33 @@
+body{
+    background-color: #101010;
+}
+h1, h2, label {
+    color: white;
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+
+lista-tweets, li{
+    color: white;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
